@@ -13,10 +13,6 @@
     --pink: #F7C7B9;
 }
 
-body {
-    margin: 0 auto;
-}
-
 .main {
     display: flex;
     justify-content: center;
@@ -51,6 +47,10 @@ body {
 .nav {
     display: flex;
     justify-content: space-between;
+
+    max-width: 1440px;
+
+    margin: 0 auto;
 }
 
 .container {
@@ -123,6 +123,9 @@ body {
     background: var(--pink);
 
     height: 25rem;
+
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 .content {
@@ -201,6 +204,9 @@ body {
     padding: 2rem;
 
     gap: 1rem;
+
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 .section_title {
@@ -255,15 +261,19 @@ body {
 
 /* Section shared */
 
-#shared {
+.wrapper {
     display: flex;
     justify-content: space-around;
     align-items: center;
 
+    max-width: 1440px;
+    margin: 0 auto;
+
     padding: 1rem;
+}
 
+#shared {
     background: var(--pink);
-
 }
 
 #shared .content {
